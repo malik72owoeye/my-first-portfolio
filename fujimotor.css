@@ -1,0 +1,75 @@
+header{display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ffffff;
+    color: rgb(12, 3, 3);
+    position: sticky;
+    
+}  
+nav{display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+ }
+a{color: rgb(172, 118, 3);
+   text-decoration: none;
+}
+.primary-button{border-radius: 20px;
+    color:white;
+background-color: rgb(216, 154, 40);
+padding: 10px 10px;
+font-weight: 600; 
+display: inline-block;
+font-size: 16px;
+font-weight: 600;
+}
+.hero{background-color: #fafafa;
+    min-height: 500px;
+    padding: 80px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 27px;
+    width: 100%;
+    
+ }
+ .hero-content{color: rgb(253, 173, 25);
+
+ }
+ .hero-image{flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 150px;
+ }
+ .about{background-color: rosybrown;
+    padding: 65px 9%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+.about>div{flex: 1;
+
+}.about h2{font-size: 30px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 5px;
+}
+.about h3{font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+
+    
+
+
+    
+
+
